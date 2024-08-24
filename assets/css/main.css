@@ -581,6 +581,24 @@ h6 {
   padding-top: 50px;
 }
 
+.footer .footer-top .row {
+  justify-content: center;
+}
+
+.footer .footer-about,
+.footer .footer-links,
+.footer .footer-contact {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .footer .footer-about,
+  .footer .footer-links,
+  .footer .footer-contact {
+      text-align: left;
+  }
+}
+
 .footer .footer-about .logo {
   line-height: 1;
   margin-bottom: 25px;
@@ -603,6 +621,11 @@ h6 {
   font-size: 14px;
   font-family: var(--heading-font);
 }
+.footer .footer-links {
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 .footer .social-links a {
   display: flex;
